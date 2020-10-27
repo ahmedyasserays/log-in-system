@@ -1,0 +1,11 @@
+
+answer = input("Do you want to create a new account or to log in?\n")
+if answer.lower() == "create":
+    print("you will create a new account")
+
+elif answer.lower() == "log in":
+    user_name = input("user name: ")
+    password = input("password: ")
+
+else:
+    print("please type \"create\" or \"log in\"")
